@@ -1,0 +1,6 @@
+library(ggplot2)
+data=mtcars
+
+# (i) weight vs displacement scatter plot factor by Engine Shape
+ggplot (data, aes(x=disp, y=wt, color=vs)) +
+geom_point() + ggtitle("Weight vs Displacement by Engine Shape")
