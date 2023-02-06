@@ -1,0 +1,3 @@
+mtcars
+# i)dimension of data set
+dim(mtcars)
