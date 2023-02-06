@@ -1,0 +1,4 @@
+(iii) horsepower vs mileage scatter plot factor by Cylinder Size
+ggplot(data, aes(x=mpg, y=hp, color=cyl)) +
+
+geom_point() + ggtitle("Mileage vs Horsepower by Cylinder Size")
